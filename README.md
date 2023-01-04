@@ -12,4 +12,6 @@
  -[큰 수 출력/보이는  학생](https://hee-story6.tistory.com/142)  
  -[가위바위보/피보나치 수열](https://hee-story6.tistory.com/145)  
  -[소수/뒤집은 소수](https://hee-story6.tistory.com/151)  
- -[점수계산/등수구하기/격자판 ]  
+ -[점수계산/등수구하기/격자판최대값]  
+
+
