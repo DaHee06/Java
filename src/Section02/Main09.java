@@ -23,7 +23,8 @@ public class Main09 {
             answer=Math.max(answer, sum2); //sum1이나 sum2 둘 중 하나 큰 값이 들어간다.
         }
 
-        //대각선의 합 --
+        //여기서부턴 answer이 Integer.MIN_VALUE가 아닌 다른 최대값
+
         sum1=sum2=0;
         for(int i=0;i<n;i++){
             sum1+=arr[i][i]; //대각선의 합
@@ -31,7 +32,6 @@ public class Main09 {
         }
         answer=Math.max(answer, sum1);
         answer=Math.max(answer, sum2);
-
 
         return answer;
     }
