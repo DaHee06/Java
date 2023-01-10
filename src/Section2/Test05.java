@@ -12,9 +12,10 @@ public class Test05 {
     public int solution(int n){
         int answer=0;
         int[] arr = new int[n];
-        for(int i =1;i<=n;i++){
-//            if(!(i%2==0 || i%3==0 || i%5==0)) answer++;
-
+        if(n>5) answer=3;
+        for(int i =2;i<n;i++){
+            arr[i] = i;
+            if(!(arr[i]%2==0 || arr[i]%3==0 || arr[i]%5==0)) answer++;
         }
         return answer;
     }
